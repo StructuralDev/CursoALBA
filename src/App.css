@@ -1,0 +1,56 @@
+:root {
+  max-width: 1280px;
+  margin: auto;
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+
+}
+
+form{
+  background-color: rgb(233, 223, 175);
+  border-radius: 10px;
+}
+
+.datos {
+  width: 30%;
+  padding: 30px;
+  /* border:  2px solid brown; */
+  border-radius: 5px;
+  font-size: large;
+  margin: 10px auto;
+}
+
+.datos:hover, button:hover{
+  background-color: rgb(160, 112, 112);
+  color: beige;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 5px solid #8cd752;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: none;
+}
+
+button{
+  background-color: #8cd752;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30%;
+  padding: 30px;
+  margin: 4px 35% 25px;
+  font-size: larger;
+}
